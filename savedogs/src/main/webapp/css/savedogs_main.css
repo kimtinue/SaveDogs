@@ -1,0 +1,176 @@
+@charset "UTF-8";
+body{
+	width: 100%;
+	margin: 0 auto;
+	width: 100%;
+	min-width: 100%;
+	text-align: center;
+}
+
+/* 가장 큰 div */
+.main_div{
+	padding-top: 50px;
+	display: inline-block;	
+	width:80%;
+	
+}
+hr{
+	width: 70%;
+}
+
+table{
+	display: inline-block;
+	
+	text-align: center;
+}
+select{
+	font-size: 15px;
+	padding: 5px;
+	width: 200px;
+	margin: 5px;
+}
+input[type=text]{
+	font-size: 15px;
+	padding: 5px;
+	width: 235px;	
+	
+}
+
+input[type=password]{
+	font-size: 15px;
+	padding: 5px;
+	width: 235px;
+}
+
+textarea{
+	font-size: 15px;
+	width: 90%;
+	height: 90%;
+}
+
+/* submit 버튼 == 초록색 버튼 */
+.s_btn {
+	background-color: #34b2a4;
+	color : white;
+	font-size: 20px;
+	padding: 5px 7px;
+	border: 0;
+	outline: 0;
+	width: 100px;
+	height: 80%;
+	margin: 5px;
+}
+
+/* 회색 버튼 */
+.g_btn {
+	background-color: #AAAAAA;
+	color : white;
+	font-size: 20px;
+	border: 0;
+	outline: 0;
+	padding: 5px 7px;
+	width: 100px;
+	height: 80%;
+	margin: 5px;
+}
+
+/* 작은 버튼 (우편번호 찾기 등) */
+.small_btn{
+	font-size: 15px;
+	border: 2;
+	border-style :solid;
+	border-color : #AAAAAA;
+	background-color : white;
+	outline: 0;
+	padding: 5px 7px;
+}
+
+th{
+	width: 150px;
+	text-align: center;
+}
+
+td{
+	text-align: left;
+	padding: 7px;
+}
+
+/* 테이블의 마지막 td (버튼이 들어있는) */
+.btn_td{
+	text-align: center;
+	padding-top: 30px;
+}
+
+textarea{
+	width: 100%
+}
+font{
+	font-size: 15px;
+}
+
+/* 초록색 폰트 (강조용) */
+.g_font{
+	font-size: 25px;
+	color: #34b2a4;
+}
+
+/* 후원 탭 div */
+.hw_div {
+	font-size: 25px;
+	text-align: center;
+}
+
+/* 후원 선택 탭 */
+.hw_clicked{
+	color: #34b2a4;
+	font-weight: 600;
+}
+
+/* 마지막에 버튼만 있는 div  */
+.btn_div{
+	text-align: center;
+	padding-top: 50px;
+}
+
+/* textarea 선없는 버전 */
+/* rows="10" cols="20 */
+.txta{
+	border: 0px;
+	border-style: none;
+	resize: none;
+}
+.txta:focus {
+  outline: none;
+}
+
+/* border가 있는 테이블 아래 3개 다 사용해야함 ! */
+.b_table { 	
+   border: 1px solid #444444;
+   border-collapse: collapse;
+}
+.b_th {
+ 	background-color: #B3E7E2;
+  	border: 1px solid #444444;
+    padding: 10px;
+}
+  
+.b_td {
+  	border: 1px solid #444444;
+    padding: 10px;
+  	width: 80%;
+  	text-align: center;
+}
+
+/* 가로선만 있는 테이블 */
+.l_th, .l_td {
+    border-bottom: 1px solid #444444;
+    padding: 10px;
+  }
+ 
+/* content div */ 
+ .ctxt_div{
+	text-align: left;
+	width: 100%;
+	min-height: 350px;
+	
+}

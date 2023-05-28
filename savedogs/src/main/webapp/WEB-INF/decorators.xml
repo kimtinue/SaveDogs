@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<!-- /WEB-INF/decorators.xml -->
+<decorators defaultdir="/layout">
+	<decorator name="main" page="layout.jsp">
+		<pattern>/main.dog</pattern>
+		<pattern>/board/notice*.dog</pattern>
+		<pattern>/board/qna*.dog</pattern>
+		
+	</decorator>
+	<decorator name="simple" page="simple_layout.jsp">
+		<pattern>/vwork/*</pattern>
+		<pattern>/member/*.dog</pattern>
+		<pattern>/funding/*.dog</pattern>
+		<pattern>/item/*.dog</pattern>
+		<pattern>/fundinganditem/*.dog</pattern>
+		<pattern>/adopt/*.dog</pattern>
+		<pattern>/cart/*.dog</pattern>
+		<pattern>/board/review*.dog</pattern>
+		<pattern>/info.dog</pattern>
+	</decorator>
+	<decorator name="membermypage" page="memberMypage_layout.jsp">
+		<pattern>/member/*Mypage.dog</pattern>
+		<pattern>/member/checkpass.dog</pattern>
+		<pattern>/member/*Member.dog</pattern>
+		<pattern>/admin/*.dog</pattern>
+	</decorator>
+	<excludes>
+		<pattern>/member/shelterlist.*</pattern>
+		<pattern>/member/id*</pattern>
+		<pattern>/member/pw*</pattern>
+		<pattern>/vwork/vwrite*</pattern>
+		<pattern>/member/changepass*</pattern>
+		<pattern>/funding/fundingapply*</pattern>
+		<pattern>/cart/cartAdd*</pattern>
+		<pattern>/item/soldout*</pattern>
+		<pattern>/item/delete*</pattern>
+		<pattern>/board/imgupload*</pattern>
+	</excludes>
+</decorators>

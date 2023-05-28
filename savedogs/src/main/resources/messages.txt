@@ -1,0 +1,22 @@
+## src/main/resources/messages.txt => src/main/resources/messages.properties 변경
+error.input.member=입력정보에 문제가 있습니다.
+error.required.member_id=유저ID를 입력해 주세요
+error.required.member_pass=패스워드를 입력해 주세요
+error.required.member_name=이름을 입력해 주세요
+error.required.member_address=주소를 입력해 주세요
+error.required.member_daddress=상세주소를 입력해주세요
+error.required.member_tel=전화번호를 입력해 주세요
+error.required.member_email=E-MAIL을 입력해 주세요
+error.required.shelter_no=보호소번호를 선택해 주세요
+
+error.login.member=로그인이 필요합니다.
+error.login.member_id=아이디를 확인하세요.
+error.login.member_pass=비밀번호를 확인하세요.
+error.user.update=사용자 수정시 오류가 있습니다.
+
+user.userId.default=로그인 시 필요합니다.
+user.userName.default=배송 시 필요합니다.
+typeMismatch.birthday=생년월일은 YYYY-MM-DD 형식으로 입력해 주세요
+error.duplicate.user=중복된 아이디입니다
+error.board.password=비밀번호가 틀립니다
+
